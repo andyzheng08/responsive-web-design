@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(104, 188, 216);
+}
+
+@media only screen and (max-width: 300px) {
+    body{
+        background-color: red
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: green;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .okay {
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .okay {
+        font-size: 30px;
+        display: grid;
+        grid-template-rows: 60% 30% 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .okay {
+        font-size: 20px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
